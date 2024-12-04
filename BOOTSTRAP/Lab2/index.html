@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+        />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid p-5">
+            <div class="row p-0">
+                <div class="col-12 d-flex flex-wrap gap-2 p-0">
+                    <div class="dropdown">
+                        <button
+                            class="btn border-light-subtle border-1 py-1 px-2 d-flex align-items-center justify-content-center gap-2 rounded-3"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            <div class="fs-7 d-flex gap-2 align-items-center">
+                                <span class="">Area</span>
+                                <span
+                                    class="bg-light-subtle rounded-3 text-center border fw-semibold text-purple"
+                                    style="
+                                        padding: 0.12rem;
+                                        padding-inline: 0.4rem;
+                                    "
+                                >
+                                    4
+                                </span>
+                                <span class="fw-bold">selected</span>
+                                <i type="button" class="bi bi-chevron-down"></i>
+                                <i type="button" class="bi bi-x fs-5"></i>
+                            </div>
+                        </button>
+
+                        <ul
+                            class="dropdown-menu mt-2 p-2 border-light-subtle border-1 rounded-3"
+                        >
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-red rounded-3 fs-8 text-uppercase text-red fw-bold px-2 py-1"
+                                        for="flexCheckDefault"
+                                    >
+                                        centre-est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault1"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault1"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault2"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault2"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-purple rounded-3 fs-8 text-uppercase text-purple fw-bold px-2 py-1"
+                                        for="flexCheckDefault2"
+                                    >
+                                        est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault3"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault3"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-blue-green rounded-3 fs-8 text-uppercase text-blue-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault3"
+                                    >
+                                        nord
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault4"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault4"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-green rounded-3 fs-8 text-uppercase text-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault4"
+                                    >
+                                        oest
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault5"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault5"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-pink rounded-3 fs-8 text-uppercase text-pink fw-bold px-2 py-1"
+                                        for="flexCheckDefault5"
+                                    >
+                                        region parisienne
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault6"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault6"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-yellow rounded-3 fs-8 text-uppercase text-yellow fw-bold px-2 py-1"
+                                        for="flexCheckDefault6"
+                                    >
+                                        sud est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault7"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault7"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-orange rounded-3 fs-8 text-uppercase text-orange fw-bold px-2 py-1"
+                                        for="flexCheckDefault7"
+                                    >
+                                        sud ouest
+                                    </label>
+                                </label>
+                            </li>
+                            <hr class="my-2 border-secondary-subtle" />
+                            <li
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <label
+                                    class="fs-7 fw-bold text-dark-emphasis"
+                                    for="deSelectAll"
+                                    >Deselect all</label
+                                >
+                                <button
+                                    class="btn p-0 border-secondary-subtle border-1 fs-5 text-center"
+                                    id="deSelectAll"
+                                    style="height: 20px; width: 20px"
+                                >
+                                    <div
+                                        class="position-relative text-secondary fw-light"
+                                        style="bottom: 7.5px"
+                                    >
+                                        -
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button
+                            class="btn border-light-subtle border-1 py-1 px-2 d-flex align-items-center justify-content-center gap-2 rounded-3"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            <div class="fs-7 d-flex gap-2 align-items-center">
+                                <span class="">Area</span>
+                                <span
+                                    class="bg-light-subtle rounded-3 text-center border fw-semibold text-purple"
+                                    style="
+                                        padding: 0.12rem;
+                                        padding-inline: 0.4rem;
+                                    "
+                                >
+                                    4
+                                </span>
+                                <span class="fw-bold">selected</span>
+                                <i type="button" class="bi bi-chevron-down"></i>
+                                <i type="button" class="bi bi-x fs-5"></i>
+                            </div>
+                        </button>
+
+                        <ul
+                            class="dropdown-menu mt-2 p-2 border-light-subtle border-1 rounded-3"
+                        >
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault8"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault8"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-red rounded-3 fs-8 text-uppercase text-red fw-bold px-2 py-1"
+                                        for="flexCheckDefault8"
+                                    >
+                                        centre-est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault9"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault9"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault9"
+                                    >
+                                        centre ouest
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault10"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault10"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-purple rounded-3 fs-8 text-uppercase text-purple fw-bold px-2 py-1"
+                                        for="flexCheckDefault10"
+                                    >
+                                        est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault11"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault11"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-blue-green rounded-3 fs-8 text-uppercase text-blue-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault11"
+                                    >
+                                        nord
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault12"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault12"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-green rounded-3 fs-8 text-uppercase text-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault12"
+                                    >
+                                        oest
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault13"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault13"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-pink rounded-3 fs-8 text-uppercase text-pink fw-bold px-2 py-1"
+                                        for="flexCheckDefault13"
+                                    >
+                                        region parisienne
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault14"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault14"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-yellow rounded-3 fs-8 text-uppercase text-yellow fw-bold px-2 py-1"
+                                        for="flexCheckDefault14"
+                                    >
+                                        sud est
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheckDefault15"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault15"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-orange rounded-3 fs-8 text-uppercase text-orange fw-bold px-2 py-1"
+                                        for="flexCheckDefault15"
+                                    >
+                                        sud ouest
+                                    </label>
+                                </label>
+                            </li>
+                            <hr class="my-2 border-secondary-subtle" />
+                            <li
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <label
+                                    class="fs-7 fw-bold text-dark-emphasis"
+                                    for="deSelectAll"
+                                    >Deselect all</label
+                                >
+                                <button
+                                    class="btn p-0 border-secondary-subtle border-1 fs-5 text-center"
+                                    id="deSelectAll"
+                                    style="height: 20px; width: 20px"
+                                >
+                                    <div
+                                        class="position-relative text-secondary fw-light"
+                                        style="bottom: 7.5px"
+                                    >
+                                        -
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button
+                            class="btn border-light-subtle border-1 py-1 px-2 d-flex align-items-center justify-content-center gap-2 rounded-3"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            <div class="fs-7 d-flex gap-2 align-items-center">
+                                <span class="">State</span>
+                                <span
+                                    class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                    style="
+                                        padding: 0.12rem;
+                                        padding-inline: 0.4rem;
+                                    "
+                                >
+                                    <div
+                                        style="height: 6px; width: 6px"
+                                        class="rounded-5 bg-success"
+                                    ></div>
+                                    <div class="text-uppercase">open</div>
+                                </span>
+                                <i type="button" class="bi bi-chevron-down"></i>
+                                <i type="button" class="bi bi-x fs-5"></i>
+                            </div>
+                        </button>
+
+                        <ul
+                            class="dropdown-menu mt-2 p-2 border-light-subtle border-1 rounded-3"
+                        >
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheck1"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheck1"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.4rem;
+                                        "
+                                        for="flexCheck1"
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase fs-7">
+                                            open
+                                        </div>
+                                    </label>
+                                </label>
+                            </li>
+                            <li>
+                                <label
+                                    class="dropdown-item p-0 cursor-pointer p-2 rounded-2 d-flex gap-2 align-items-center btn"
+                                    for="flexCheck2"
+                                >
+                                    <input
+                                        class="form-check-input cursor-pointer"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheck2"
+                                    />
+                                    <label
+                                        class="form-check-label cursor-pointer bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.4rem;
+                                        "
+                                        for="flexCheck2"
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-danger"
+                                        ></div>
+                                        <div class="text-uppercase fs-7">
+                                            closed
+                                        </div>
+                                    </label>
+                                </label>
+                            </li>
+                            <hr class="my-2 border-secondary-subtle" />
+                            <li
+                                class="d-flex justify-content-between align-items-center"
+                            >
+                                <label
+                                    class="fs-7 fw-bold text-dark-emphasis"
+                                    for="deSelectAll"
+                                    >Deselect all</label
+                                >
+                                <button
+                                    class="btn p-0 border-secondary-subtle border-1 fs-5 text-center"
+                                    id="deSelectAll"
+                                    style="height: 20px; width: 20px"
+                                >
+                                    <div
+                                        class="position-relative fw-light"
+                                        style="bottom: 7.5px"
+                                    >
+                                        -
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="overflow-hidden rounded-2 border-1 border p-0">
+                    <table class="table table-hover m-0 align-middle fs-7">
+                        <thead>
+                            <tr>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    ID
+                                    <i class="bi bi-arrow-down-short fs-6"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    Name
+                                    <i class="bi bi-chevron-expand fs-7"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    City
+                                    <i class="bi bi-chevron-expand fs-7"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    Banner
+                                    <i class="bi bi-chevron-expand fs-7"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    Area
+                                    <i class="bi bi-arrow-down-short fs-6"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    Type
+                                    <i class="bi bi-arrow-down-short fs-6"></i>
+                                </th>
+                                <th
+                                    scope="col"
+                                    class="bg-light cursor-pointer text-dark-emphasis"
+                                >
+                                    State
+                                    <i class="bi bi-chevron-expand fs-7"></i>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">931027</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-green border-green rounded-3 fs-8 text-uppercase text-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-danger"
+                                        ></div>
+                                        <div class="text-uppercase">closed</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">61237</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">81371</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">123412</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-orange border-orange rounded-3 fs-8 text-uppercase text-orange fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-danger"
+                                        ></div>
+                                        <div class="text-uppercase">closed</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">93771</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-pink border-pink rounded-3 fs-8 text-uppercase text-pink fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3456781</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">931027</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-green border-green rounded-3 fs-8 text-uppercase text-green fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-danger"
+                                        ></div>
+                                        <div class="text-uppercase">closed</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">61237</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">81371</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">123412</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-orange border-orange rounded-3 fs-8 text-uppercase text-orange fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-danger"
+                                        ></div>
+                                        <div class="text-uppercase">closed</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">93771</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-pink border-pink rounded-3 fs-8 text-uppercase text-pink fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">3456781</td>
+                                <th>Mark</th>
+                                <td>Otto</td>
+                                <td>
+                                    <span
+                                        class="bg-opacity-blue rounded-2 px-2 py-1 text-uppercase fw-bold"
+                                        >@mdo</span
+                                    >
+                                </td>
+                                <td>
+                                    <span
+                                        class="form-check-label cursor-pointer bg-blue border-blue rounded-3 fs-8 text-uppercase text-blue fw-bold px-2 py-1"
+                                        for="flexCheckDefault1"
+                                    >
+                                        centre ouest
+                                    </span>
+                                </td>
+                                <td>Viet Nam</td>
+                                <td>
+                                    <span
+                                        class="bg-light-subtle rounded-3 text-center border fw-bold d-flex gap-2 align-items-center"
+                                        style="
+                                            padding: 0.12rem;
+                                            padding-inline: 0.7rem;
+                                            width: fit-content;
+                                        "
+                                    >
+                                        <div
+                                            style="height: 6px; width: 6px"
+                                            class="rounded-5 bg-success"
+                                        ></div>
+                                        <div class="text-uppercase">open</div>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

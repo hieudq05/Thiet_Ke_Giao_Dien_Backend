@@ -1,0 +1,86 @@
+[
+    {
+        "id": "DQHPM-1",
+        "name": "10% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 10
+    },
+    {
+        "id": "DQHPM-2",
+        "name": "15% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 15
+    },
+    {
+        "id": "DQHPM-3",
+        "name": "20% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 20
+    },
+    {
+        "id": "DQHPM-4",
+        "name": "25% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 25
+    },
+    {
+        "id": "DQHPM-5",
+        "name": "30% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 30
+    },
+    {
+        "id": "DQHPM-6",
+        "name": "35% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 35
+    },
+    {
+        "id": "DQHPM-7",
+        "name": "40% off total order value",
+        "type": "percentage",
+        "scope": "total",
+        "value": 40
+    },
+    {
+        "id": "FS-DQH",
+        "name": "Free Shipping",
+        "type": "percentage",
+        "scope": "shipping",
+        "value": 100
+    },
+    {
+        "id": "5S-DQH",
+        "name": "5$ off shipping fees",
+        "type": "fixed",
+        "scope": "shipping",
+        "value": 5
+    },
+    {
+        "id": "10S-DQH",
+        "name": "10$ off shipping fees",
+        "type": "fixed",
+        "scope": "shipping",
+        "value": 10
+    },
+    {
+        "id": "15S-DQH",
+        "name": "15$ off shipping fees",
+        "type": "fixed",
+        "scope": "shipping",
+        "value": 15
+    },
+    {
+        "id": "20S-DQH",
+        "name": "20$ off shipping fees",
+        "type": "fixed",
+        "scope": "shipping",
+        "value": 20
+    }
+]

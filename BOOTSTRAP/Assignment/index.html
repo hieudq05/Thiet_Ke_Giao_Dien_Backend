@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        />
+        <link rel="stylesheet" href="/style/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+            <div class="container px-5">
+                <a class="navbar-brand text-uppercase" href="#">venomz</a>
+                <button
+                    class="navbar-toggler fs-7"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse flex-grow-0"
+                    id="navbarNavAltMarkup"
+                >
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#"
+                            >Packages</a
+                        >
+                        <a class="nav-link" href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="/images/5d2cc49593bb307a757c1e1ac32658e6.jpg"
+                            class="d-block w-100 bg-img"
+                            alt="..."
+                        />
+                        <div
+                            class="carousel-caption d-none d-sm-flex h-100 gap-5 flex-column justify-content-center align-items-center"
+                        >
+                            <div class="fs-7 text-uppercase">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Omnis alias labore adipisci!
+                            </div>
+                            <div class="text-capitalize fs-1 fw-semibold">
+                                First slide label
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-dark rounded-5 py-3-custom border-secondary border-2 px-5 w-fit"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                            >
+                                Contact us
+                            </button>
+
+                            <!-- Modal -->
+                            <div
+                                class="modal fade"
+                                id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0">
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-3 fw-light"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-3 fw-light"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="/images/Pin page image (1).jpg"
+                            class="d-block w-100 bg-img"
+                            alt="..."
+                        />
+                        <div
+                            class="carousel-caption d-sm-flex d-none h-100 gap-5 flex-column justify-content-center align-items-center"
+                        >
+                            <div class="fs-7 text-uppercase">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Omnis alias labore adipisci!
+                            </div>
+                            <div class="text-capitalize fs-1 fw-semibold">
+                                Second slide label
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-dark rounded-5 py-3-custom border-secondary border-2 px-5 w-fit"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1"
+                            >
+                                Contact us
+                            </button>
+
+                            <!-- Modal -->
+                            <div
+                                class="modal fade"
+                                id="exampleModal1"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0">
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-3 fw-light"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-3 fw-light"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="/images/Pin page image.jpg"
+                            class="d-block w-100 bg-img"
+                            alt="..."
+                        />
+                        <div
+                            class="carousel-caption d-none d-sm-flex h-100 gap-5 flex-column justify-content-center align-items-center"
+                        >
+                            <div class="fs-7 text-uppercase">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Omnis alias labore adipisci!
+                            </div>
+                            <div class="text-capitalize fs-1 fw-semibold">
+                                Third slide label
+                            </div>
+                            <!-- Button trigger modal -->
+                            <button
+                                type="button"
+                                class="btn btn-dark rounded-5 py-3-custom border-secondary border-2 px-5 w-fit"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2"
+                            >
+                                Contact us
+                            </button>
+
+                            <!-- Modal -->
+                            <div
+                                class="modal fade"
+                                id="exampleModal2"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0">
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-3 fw-light"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-3 fw-light"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="row m-0 py-4 row-gap-3 bg-secondary-subtle">
+                <div class="col-12 col-sm text-center mt-0">
+                    <i class="bi bi-airplane-fill me-2"></i>3 Destinations
+                </div>
+                <div class="col-12 col-sm text-center mt-0">
+                    <i class="bi bi-credit-card-fill me-2"></i>Only pay 5%
+                </div>
+                <div class="col-12 col-sm text-center mt-0">
+                    <i class="bi bi-suitcase-lg-fill me-2"></i>1000's of
+                    customers
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="fs-3 text-center py-5 fw-semibold">Package</div>
+                <div class="row m-0 gap-md-4 gap-0 g-md-0 g-4">
+                    <div
+                        class="card col-12 mx-auto col-md p-0 overflow-hidden fs-7"
+                    >
+                        <img
+                            src="https://i.pinimg.com/564x/30/b8/10/30b81087a3b06a0d10e28d835b2f8b73.jpg"
+                            class="card-img-top card-img rounded-0"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <button
+                                class="btn bg-secondary-subtle fs-7 fw-medium border-secondary-subtle"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3"
+                                >Go somewhere</button
+                            >
+                            <div
+                                class="modal fade"
+                                id="exampleModal3"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0 gap-3">
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-1 fw-light fs-6"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-1 fw-light fs-6"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card col-12 mx-auto col-md p-0 overflow-hidden fs-7"
+                    >
+                        <img
+                            src="https://i.pinimg.com/564x/f6/64/32/f66432f1d5513068bb0670b75c491336.jpg"
+                            class="card-img-top card-img rounded-0"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <button
+                                class="btn bg-secondary-subtle fs-7 fw-medium border-secondary-subtle"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3"
+                                >Go somewhere</button
+                            >
+                            <div
+                                class="modal fade"
+                                id="exampleModal4"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0 gap-3">
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-1 fw-light fs-6"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-1 fw-light fs-6"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card col-12 mx-auto col-md p-0 overflow-hidden fs-7"
+                    >
+                        <img
+                            src="https://i.pinimg.com/564x/eb/87/34/eb873494ae1266b9c865603948a3bb7d.jpg"
+                            class="card-img-top card-img rounded-0"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <button
+                                class="btn bg-secondary-subtle fs-7 fw-medium border-secondary-subtle"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3"
+                                >Go somewhere</button
+                            >
+                            <div
+                                class="modal fade"
+                                id="exampleModal5"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true"
+                            >
+                                <div
+                                    class="modal-dialog modal-dialog-centered"
+                                >
+                                    <div
+                                        class="modal-content rounded-4 text-light"
+                                    >
+                                        <div class="modal-header">
+                                            <h1
+                                                class="modal-title fs-5"
+                                                id="exampleModalLabel"
+                                            >
+                                                Contact us
+                                            </h1>
+                                            <button
+                                                type="button"
+                                                class="btn-close fs-7"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row m-0 gap-3">
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <input
+                                                        type="email"
+                                                        class="form-control px-3 rounded-3"
+                                                        id="floatingInput"
+                                                        placeholder="name@example.com"
+                                                    />
+                                                    <label
+                                                        for="floatingInput"
+                                                        class="ms-1 fw-light fs-6"
+                                                        >Email address</label
+                                                    >
+                                                </div>
+                                                <div
+                                                    class="form-floating col-12 col-md p-0"
+                                                >
+                                                    <select
+                                                        class="form-select px-3 rounded-3"
+                                                        id="floatingSelect"
+                                                        aria-label="Floating label select example"
+                                                    >
+                                                        <option selected>
+                                                            Open this select
+                                                            menu
+                                                        </option>
+                                                        <option value="1">
+                                                            One
+                                                        </option>
+                                                        <option value="2">
+                                                            Two
+                                                        </option>
+                                                        <option value="3">
+                                                            Three
+                                                        </option>
+                                                    </select>
+                                                    <label
+                                                        for="floatingSelect"
+                                                        class="ms-1 fw-light"
+                                                        >Works with
+                                                        selects</label
+                                                    >
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button
+                                                type="button"
+                                                class="btn bg-secondary bg-opacity-25 rounded-3 fs-7"
+                                                data-bs-dismiss="modal"
+                                            >
+                                                Close
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary rounded-3 fs-7"
+                                            >
+                                                Send request
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="fs-3 text-center py-5 fw-semibold">FAQ</div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                            >
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong
+                                    >This is the first item's accordion
+                                    body.</strong
+                                >
+                                It is shown by default, until the collapse
+                                plugin adds the appropriate classes that we use
+                                to style each element. These classes control the
+                                overall appearance, as well as the showing and
+                                hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our
+                                default variables. It's also worth noting that
+                                just about any HTML can go within the
+                                <code>.accordion-body</code>, though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                            >
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong
+                                    >This is the second item's accordion
+                                    body.</strong
+                                >
+                                It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use
+                                to style each element. These classes control the
+                                overall appearance, as well as the showing and
+                                hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our
+                                default variables. It's also worth noting that
+                                just about any HTML can go within the
+                                <code>.accordion-body</code>, though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                            >
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample"
+                        >
+                            <div class="accordion-body">
+                                <strong
+                                    >This is the third item's accordion
+                                    body.</strong
+                                >
+                                It is hidden by default, until the collapse
+                                plugin adds the appropriate classes that we use
+                                to style each element. These classes control the
+                                overall appearance, as well as the showing and
+                                hiding via CSS transitions. You can modify any
+                                of this with custom CSS or overriding our
+                                default variables. It's also worth noting that
+                                just about any HTML can go within the
+                                <code>.accordion-body</code>, though the
+                                transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-center bg-secondary-subtle p-5 mt-5">
+            <div class="fs-2 fw-light mt-3">VeNomZ</div>
+            <div class="fs-8 fw-light text-white-50 mb-3">
+                ©Copyright by Hah7 - 2024
+            </div>
+        </footer>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

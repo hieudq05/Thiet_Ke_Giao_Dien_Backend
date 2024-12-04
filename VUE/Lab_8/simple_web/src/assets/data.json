@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "Acne-Fighting Toner",
+        "price": 2811.5,
+        "salePrice": 1499,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts.",
+        "size": "200ml",
+        "image1": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "count": 3,
+        "isSelect": false,
+        "rating": 4.5,
+        "shipping": {
+            "cost": 20,
+            "days": 3
+        }
+    },
+    {
+        "id": 2,
+        "name": "Acne-Fighting Toner 1",
+        "price": 21.2,
+        "salePrice": 20,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "size": "140ml",
+        "image1": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "count": 1,
+        "isSelect": false,
+        "rating": 3.5,
+        "shipping": {
+            "cost": 20,
+            "days": 5
+        }
+    },
+    {
+        "id": 3,
+        "name": "Acne-Fighting Toner 2",
+        "price": 41.8,
+        "salePrice": 40,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "size": "330ml",
+        "image1": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "count": 1,
+        "isSelect": false,
+        "rating": 5,
+        "shipping": {
+            "cost": 20,
+            "days": 2
+        }
+    },
+    {
+        "id": 4,
+        "name": "Acne-Fighting Toner",
+        "price": 2811.5,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts.",
+        "size": "200ml",
+        "image1": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "count": 3,
+        "isSelect": false,
+        "rating": 4,
+        "shipping": {
+            "cost": 20,
+            "days": 3
+        }
+    },
+    {
+        "id": 5,
+        "name": "Acne-Fighting Toner 1",
+        "price": 21.2,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "size": "140ml",
+        "image1": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "count": 1,
+        "isSelect": false,
+        "rating": 3.5,
+        "shipping": {
+            "cost": 20,
+            "days": 5
+        }
+    },
+    {
+        "id": 6,
+        "name": "Acne-Fighting Toner 2",
+        "price": 41.8,
+        "salePrice": 20,
+        "productType": "toner",
+        "type": "bottle",
+        "description": "A toner that helps reduce acne and prevent future breakouts. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "size": "330ml",
+        "image1": "https://images.beta.cosmos.so/379f4842-facc-4747-b906-d385b1b20df3?format=jpeg",
+        "image2": "https://images.beta.cosmos.so/c43d551f-ced9-4653-b1f0-4896bc20b219?format=jpeg",
+        "image3": "https://images.beta.cosmos.so/04815832-c1ba-4409-aa62-ca3f055fdd7b?format=jpeg",
+        "count": 1,
+        "isSelect": false,
+        "rating": 5,
+        "shipping": {
+            "cost": 20,
+            "days": 2
+        }
+    }
+]

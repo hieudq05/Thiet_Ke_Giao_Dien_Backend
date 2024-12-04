@@ -1,0 +1,189 @@
+.setup-frame {
+    padding-top: 86px !important;
+}
+
+.container-home {
+    height: calc(100vh - 86px) !important;
+}
+
+.nav-blur {
+    backdrop-filter: blur(20px) !important;
+}
+
+.ghft {
+    filter: blur(140px);
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ghnAYp {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transform: translateX(-50%);
+    background: conic-gradient(
+        from 216.82deg at 50.09% 50.09%,
+        rgb(255, 199, 0) -22.68deg,
+        rgb(69, 246, 119) 0.36deg,
+        rgb(29, 160, 255) 20.87deg,
+        rgb(70, 67, 255) 37.8deg,
+        rgb(109, 7, 239) 62.77deg,
+        rgb(255, 0, 214) 90.22deg,
+        rgb(255, 0, 0) 108.65deg,
+        rgb(255, 76, 0) 131.05deg,
+        rgb(255, 199, 0) 153.51deg,
+        rgb(69, 247, 119) 175.84deg,
+        rgb(29, 160, 255) 198.04deg,
+        rgb(70, 67, 255) 215.44deg,
+        rgb(109, 7, 239) 238.44deg,
+        rgb(255, 0, 214) 270.64deg,
+        rgb(255, 0, 0) 294.96deg,
+        rgb(255, 76, 0) 315.97deg,
+        rgb(255, 199, 0) 337.32deg,
+        rgb(69, 246, 119) 360.36deg
+    );
+    animation: 20s linear 0s infinite normal none running rotate-gradient;
+}
+
+@keyframes rotate-gradient {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text-truncate-2 {
+    display: -webkit-box; /* Thiết lập vùng hiển thị cho văn bản */
+    -webkit-line-clamp: 2; /* Số dòng tối đa muốn hiển thị */
+    -webkit-box-orient: vertical; /* Định hướng vùng hiển thị theo chiều dọc */
+    overflow: hidden; /* Ẩn nội dung vượt quá giới hạn */
+    text-overflow: ellipsis; /* Hiển thị dấu ba chấm */
+    word-break: break-word; /* Tự động xuống dòng cho từ dài */
+}
+.bg-img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.bg-img-2 {
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    width: 100%;
+}
+
+.rounded-top-start-0 {
+    border-top-right-radius: 0.4rem !important;
+}
+.badge-size {
+    width: 55px !important;
+    height: fit-content;
+}
+.fs-badges {
+    font-size: 0.4rem;
+    font-weight: 900;
+}
+.p-f-s {
+    padding: 0 0 2px 0 !important;
+}
+.p-c-1 {
+    padding: 0.1rem 0.3rem !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: none; /* Dành cho Firefox */
+}
+
+input[type="number"] {
+    width: 1ch;
+    padding: 0;
+}
+
+.hr-v {
+    border-top: 1px solid;
+}
+
+.avt-profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avt-shadow {
+    width: 148px;
+    height: 148px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.avt {
+    width: 70px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.img-login {
+    width: 100%;
+    height: 97vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.border-height-1 {
+    border: 1px solid;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #828282 !important;
+    border-radius: 5px;
+    background-color: #fff !important;
+    position: relative;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 13px;
+    height: 13px;
+    background-color: #1677ed;
+    border-radius: 4px;
+}
+
+.fs-1-2 {
+    font-size: 1.2rem;
+}
+
+.img-size {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.scale-card {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.scale-card:hover {
+    transform: scale(1.018);
+}

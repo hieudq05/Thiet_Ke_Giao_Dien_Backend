@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=alarm"
+        />
+        <link
+            rel="stylesheet"
+            href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+        />
+        <link rel="stylesheet" href="/styleForm.css" />
+        <title>Document</title>
+    </head>
+    <body class="bg-body-tertiary row pt-5 pb-5 pb-md-0">
+        <form
+            action=""
+            class="bg-white py-4 px-4 rounded-4 col-lg-6 col-md-8 col-10 mx-auto shadow-sm"
+        >
+            <div class="fs-5 fw-semibold mb-4">Payment Request</div>
+            <div class="mb-3 d-flex flex-column gap-2 fs-7">
+                <div class="fw-semibold fs-6 p-0">Contact Details</div>
+                <div class="row m-0">
+                    <div
+                        class="d-flex align-items-center justify-content-between p-0"
+                    >
+                        <label for="formGroupExampleInput" class="form-label"
+                            >Send Payment Request to</label
+                        >
+                        <button
+                            type="button"
+                            class="btn border-0 p-0 rounded-5"
+                            data-bs-container="body"
+                            data-bs-toggle="popover"
+                            data-bs-trigger="hover"
+                            data-bs-placement="top"
+                            data-bs-custom-class="custom-popover"
+                            data-bs-content="This is a content. This is a content. This is a content. This is a content"
+                        >
+                            <i class="bi bi-info-circle fs-7"></i>
+                        </button>
+                    </div>
+                    <select
+                        class="form-select form-select-sm rounded-3 py-2"
+                        aria-label="Small select example"
+                    >
+                        <option selected>Open this select menu</option>
+                        <option value="1" class="py-3">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="row mb-2 gap-2 gap-md-0">
+                    <div class="col-12 col-md">
+                        <label for="formGroupExampleInput" class="form-label"
+                            >Name</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control fs-7 rounded-3 py-2"
+                            id="formGroupExampleInput"
+                            placeholder="Thomas Edison"
+                        />
+                    </div>
+                    <div class="col">
+                        <label for="formGroupExampleInput2" class="form-label"
+                            >Email</label
+                        >
+                        <input
+                            type="text"
+                            class="form-control fs-7 rounded-3 py-2"
+                            id="formGroupExampleInput2"
+                            placeholder="example@gmail.com"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 d-flex flex-column gap-2 fs-7">
+                <div class="fw-semibold fs-6 p-0">Contact Details</div>
+                <div class="row gap-2 gap-md-0">
+                    <div class="col-12 col-md">
+                        <label for="formGroupExampleInput" class="form-label"
+                            >Amount</label
+                        >
+                        <div class="input-group">
+                            <div
+                                class="input-group-text rounded-start-3 bg-white"
+                            >
+                                $
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control fs-7 rounded-end-3 py-2"
+                                id="inlineFormInputGroupUsername"
+                                placeholder="0.00"
+                            />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <label for="formGroupExampleInput2" class="form-label"
+                            >Due Date</label
+                        >
+                        <input
+                            type="date"
+                            class="form-control fs-7 rounded-3 py-2"
+                            id="formGroupExampleInput2"
+                            placeholder="Another input placeholder"
+                        />
+                        <div class="fs-8 text-secondary fw-light">
+                            28 days from now
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <label for="" class="p-0 form-label"
+                        >Company name to show on request</label
+                    >
+                    <select
+                        class="form-select form-select-sm rounded-3 py-2"
+                        aria-label="Small select example"
+                    >
+                        <option selected>Open this select menu</option>
+                        <option value="1" class="py-3">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="row m-0">
+                    <label for="" class="p-0 form-label"
+                        >Destination Account</label
+                    >
+                    <select
+                        class="form-select form-select-sm rounded-3 py-2"
+                        aria-label="Small select example"
+                    >
+                        <option selected>Open this select menu</option>
+                        <option value="1" class="py-3">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="fs-8 text-secondary p-0 mt-2">
+                        Incoming payments are placed in a secure receiving
+                        account to keep destination account details anonymous.
+                    </div>
+                </div>
+                <div
+                    class="bg-green d-flex align-items-center gap-2 p-2 rounded-3"
+                >
+                    <span class="material-symbols-outlined text-green">
+                        alarm
+                    </span>
+                    Payment link expires on December 11, 2023
+                </div>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button
+                    type="reset"
+                    class="btn border-1 border-secondary-subtle rounded-3 fs-7 fw-semibold"
+                >
+                    Cancel
+                </button>
+                <button
+                    type="submit"
+                    id="btnSubmit"
+                    class="btn bg-orange rounded-3 fs-7 fw-semibold text-white"
+                >
+                    Send Payment Request
+                </button>
+            </div>
+        </form>
+
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const popoverTriggerList = document.querySelectorAll(
+                '[data-bs-toggle="popover"]'
+            );
+            const popoverList = [...popoverTriggerList].map(
+                (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+            );
+        </script>
+    </body>
+</html>

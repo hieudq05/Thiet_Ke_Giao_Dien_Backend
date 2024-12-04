@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.custom-popover {
+    --bs-popover-body-padding-y: 0.5rem;
+    --bs-popover-max-width: 250px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.bg-green {
+    background-color: rgba(13, 255, 0, 0.127);
+}
+
+.border-green {
+    border: 1.5px solid rgba(11, 218, 0, 0.236);
+}
+
+.text-green {
+    color: rgb(8, 156, 0);
+}
+
+.bg-orange {
+    background-color: rgba(255, 90, 20, 0.776);
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #eb510487; /* Đổi màu viền */
+    box-shadow: 0 0 0 0.25rem rgba(212, 85, 0, 0.177); /* Đổi hiệu ứng bóng mờ */
+}
+
+#btnSubmit:hover {
+    color: #ff5722;
+    background-color: #ff5722; /* Màu nền của button */
+    border-color: #ff5722; /* Màu viền của button */
+}
